@@ -1,6 +1,20 @@
+1、利用git从终端提交项目到github
 cd 到 githubWorkSpace 
 git clone https://github.com/zhouhq-github/lstm-pytorch.git
 cd lstm-pytorch/
 git add .
 git commit -m 'yield prediction in flask'
 git push -u origin master
+
+
+2、删除github仓库中的某个文件夹
+git pull origin master
+dir
+git rm -r --cached price
+git commit -m '删除了price文件'
+git push -u origin master
+
+
+
+
+
