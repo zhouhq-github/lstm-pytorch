@@ -1,0 +1,6 @@
+cd 到 githubWorkSpace 
+git clone https://github.com/zhouhq-github/lstm-pytorch.git
+cd lstm-pytorch/
+git add .
+git commit -m 'yield prediction in flask'
+git push -u origin master
